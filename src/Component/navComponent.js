@@ -18,7 +18,7 @@ class NavComponent extends Component{
     render(props){
         return(
           <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">{this.props.title}</Navbar.Brand>
+            <Navbar.Brand href="/">{this.props.title}</Navbar.Brand>
             <Nav className="ml-auto">
               <Nav.Link onClick={this.aboutHandler}>About</Nav.Link>
             {/* <Form inline>
